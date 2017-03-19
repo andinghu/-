@@ -11,7 +11,7 @@ body
 {
 	-webkit-font-smoothing:antialiased;
 	color:#333332;
-	font-family:Lora, serif;
+	font-family:Operator Mono;
 	font-size:18px;
 	font-weight:400;
 	line-height:1.4;
@@ -115,6 +115,11 @@ h1
 	width:85%;
 }
 
+.name-text p
+{
+  font-style: italic;
+}
+
 .inner
 {
 	margin:0 auto;
@@ -130,6 +135,7 @@ h1
 .inner p
 {
 	color:rgba(0,0,0,.3);
+  font-style: italic;
 }
 
 .inner p em
@@ -163,6 +169,7 @@ ul
 	border-radius:5px;
 	color:#FFF;
 	display:inline-block;
+  font-style: italic;
 	list-style:none;
 	margin:15px 15px 0 0;
 	padding:10px;
